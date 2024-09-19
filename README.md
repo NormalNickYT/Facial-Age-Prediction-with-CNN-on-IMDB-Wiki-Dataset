@@ -34,7 +34,10 @@ The model was trained using the following settings:
 - **Optimizer**: Adam
 - **Loss Function**: Categorical Crossentropy but you could use binary crossentropy here
 - **Metrics**: Accuracy
-- **Data Augmentation**: ImageDataGenerator with rotation, shift, shear, zoom, and horizontal flip.
+- **Data Preprocessing**: The ImageDataGenerator is used for:
+   - Rescaling pixel values to the [0, 1] range.
+   - Resizing images to 128 x 128 pixels.
+   - Splitting the dataset into training and validation sets.
 
 Training was performed on the IMDB-Wiki dataset, with images resized to (128, 128) and divided into training and validation sets.
 
