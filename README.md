@@ -12,8 +12,6 @@ This project uses a CNN to predict the age category of individuals based on thei
 
 The dataset used in this project is the IMDB-Wiki dataset, which consists of facial images along with age labels. For this project, images are categorized into two classes based on whether the individual is younger or older than 41 years.
 
-You can download it here: 
-
 You can download the dataset here: [IMDB-Wiki Dataset](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)
 
 ## Model Architecture
